@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfólio Pietra</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #F5FFFA;
+            background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/2062629-abstract-background-with-technology-circuit-board-texture-electronic-motherboard-illustration-communication-and-engineering-concept-vector-illustration-vetor.jpg');
+            color: #fff; /* Alterado para branco */
+            line-height: 1.6;
+        }
+
+        h2 {
+            color: #fff; /* Títulos em branco */
+            border-bottom: 2px solid #fff;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 0.1rem 0;
+            margin-top: 2rem;
+        }
+
+        .card {
+            transition: transform 0.3s; /* Transição para animação suave */
+            background-color: #444; /* Fundo mais escuro nos cards */
+            color: #fff; /* Texto branco nos cards */
+        }
+
+        .card:hover {
+            transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+        }
+
+        .list-group-item {
+            background-color: #444; /* Fundo escuro nos itens da lista */
+            color: #fff; /* Texto branco nos itens da lista */
+        }
+
+        .navbar-brand, .nav-link {
+            color: #fff !important; /* Cor branca no texto da navbar */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Pietra Diovana</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <section id="sobre" class="mb-5">
+            <h2>Sobre mim</h2>
+            <p>Sou Pietra Diovana, estudante de Ciência da Computação fissurada por tecnologia. Busco aplicar meus conhecimentos em desenvolvimento web e demais assuntos. Atualmente, estou em busca de oportunidades de estágio para aprimorar minhas habilidades e crescer profissionalmente.</p>
+        </section>
+
+        <section id="habilidades" class="mb-5">
+            <h2>Habilidades</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">HTML & CSS</h3>
+                            <p class="card-text">Criação de páginas web e customização de estilos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">C/C++</h3>
+                            <p class="card-text">Desenvolvimento de scripts para inserção de dados de usuário, análise de dados.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h3 class="card-title">Python e Banco de Dados</h3>
+                            <p class="card-text">Desenvolvimento de scripts para cadastramento e inserção de dados de usuário, análise de dados e conexão com o banco de dados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <ul class="list-group">
+            <h2>Certificação</h2>
+            <li class="list-group-item">Curso Técnico em Informática - 2019</li>
+            <li class="list-group-item">Curso Ciência da Computação - Cursando</li>
+        </ul>
+
+        <section id="contato" class="mt-5">
+            <h2>Contato</h2>
+            <p>Email: <a href="mailto:pietra.barbosa@gmail.com?subject=Contato%20Portfólio" class="btn btn-outline-primary">pietra.barbosa@gmail.com</a></p>
+            <p>Telefone: <a href="tel:+5511012345678" class="btn btn-outline-secondary">(11) 01234-5678</a></p>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white mt-5">
+        <p>&copy; 2024 Pietra Diovana. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
